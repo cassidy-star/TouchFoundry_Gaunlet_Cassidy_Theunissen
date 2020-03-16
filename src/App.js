@@ -20,8 +20,8 @@ function App() {
       </header>
       <Two/><br></br><br></br><br></br>
       <Three/>
-      <Four/><br></br><br></br>
-      <Five/><br></br>
+      <Four/><br></br>
+      <Five/>
       <Seven/><br></br>
       <Six/>
 

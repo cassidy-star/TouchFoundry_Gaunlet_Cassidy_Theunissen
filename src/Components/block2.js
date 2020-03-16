@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import durban4 from './durban4.jpg'; 
 import CapeTown from './CapeTown.jpg'; 
-import gauteng3 from './gauteng3.jpg';
+import Gauteng from './Gauteng.jpg';
 
 // Above are all the components needed in theis file
 // This component is for the first three images 
@@ -20,12 +20,7 @@ function Two(){
        <h5 className="sub-headings">Discover &  Book a Space for Your Next Event </h5>
        </div> <br></br>
        <br></br>
-      
-       
-       
-  
 
-    
       {/* I used a Card.Deck for it to be displayed net to one another */}
        <CardDeck className="Deck">
   <Card>
@@ -37,10 +32,11 @@ function Two(){
     </div>
     </div>
   </Card>
+  
 
 {/* i did the same for the whole deck */}
   <Card>
-    <Card.Img className="img2"  variant="top" src={gauteng3} />
+    <Card.Img className="img1"  variant="top" src={Gauteng} />
     <div className="container">
     <div class="text-block">
     <p>Gauteng</p>

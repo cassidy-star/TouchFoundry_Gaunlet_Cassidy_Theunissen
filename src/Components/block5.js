@@ -12,20 +12,23 @@ import Col from 'react-bootstrap/Col';
 
 function Five(){
     return( <div>
-        <div>
+        
         {/* Here i have a image for the background of the section */}
-         <header className="header-image"><img src={image4} alt='banner' />
+        <section></section>
+         <img src={image4}  />
          {/* Then are my headings for this section */}
-         <h4 className="b5-headings">100% Secured and Protected</h4><br></br><br></br>
+         <h4 className="b5-headings">100% Secured and Protected</h4><br></br><br></br><br></br><br></br>
+         <h6 className="b5-subheadings">Trust abs Safety is our #1 priority at Hourspace</h6>
        
        
+        
+          
+
 {/* Beneath is my container/gird for my two coloured boxes */}
 
-         <Container className="boxes" >
-  <Row  >
-    <Col>
+       
     {/* Heres the first box and the edits  */}
-    <Card className="green-box" border="success" style={{ width: '18rem' }}>
+    <Card className="green-box"  border="success" style={{ width: '18rem' }}>
     <Card.Body>
       <Card.Title>Looking for a Space</Card.Title>
       <Card.Text>
@@ -42,9 +45,9 @@ function Five(){
       </Card.Text>
     </Card.Body>
   </Card>
-</Col>
+
 {/* I did the exact same for the second box */}
-    <Col>
+   
     <Card  className="blue-box" border="info" style={{ width: '20rem' }}>
     <Card.Body>
             <Card.Title>Hostingout a space</Card.Title>
@@ -58,14 +61,10 @@ function Five(){
         </ul>  
             </Card.Text>
         </Card.Body>
-  </Card> </Col>
-  </Row>
-</Container>
+  </Card> 
 
         
-</header>
-          
-          </div>
+<section/>
     </div>
 
     )

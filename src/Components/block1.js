@@ -16,9 +16,11 @@ function One(){
             {/* My navbar  logo goes in here*/}
         <Navbar.Brand href="#"><img src={logo} alt='banner' /></Navbar.Brand>
         {/*  Then i had the three buttons required  */}
-        <Button variant="outline-dark">List Your Space</Button>
-        <Button className="btn" variant=" light"> Sign Up</Button>
-        <Button className="btn" variant=" light"> Log in </Button>
+        {/* <form classname="search"><input placeholder="search"></input></form> */}
+        
+        <Button className="btn01" variant="outline-dark">List Your Space</Button>
+        <Button className="btn02" variant=" light"> Sign Up</Button>
+        <Button className="btn03" variant=" light"> Log in </Button>
         </div>
         
         </Navbar>
@@ -29,9 +31,9 @@ function One(){
 
        
         <div className="headings">
-        <h2 >Find a Space</h2><br/>
+        <h1 ><b>Find a Space</b></h1><br/>
         <h5 > Discover & Book a Space for Your Next Event</h5><br></br>
-        
+
          {/* beneath is my select menu and search button */}
         <select id="select-1" placeholder="Location">
             <option value="volvo">Location</option>

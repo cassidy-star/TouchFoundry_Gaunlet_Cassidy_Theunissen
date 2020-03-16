@@ -19,7 +19,8 @@
   object-fit: cover;
 }
 .headings{
-
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold;
   text-align: center;
   position: absolute;
   z-index:2;
@@ -39,7 +40,7 @@
 }
 .btn-1{
   
-  
+  position: relative;
   border-radius: 7%;
   border: black;
   color:black;
@@ -54,9 +55,9 @@
   
 }
 .Deck-vid{
-  width:70%;
+  width:75%;
   height:10%;
-  margin-left: 8%;
+  margin-left: 15%;
   
 }
 .img1{
@@ -70,35 +71,45 @@
   
 }
 .b5-headings{
-  color:white;
-  text-align: center;
   position: absolute;
-  margin-top:-25%;
+  z-index: 2;
+  bottom: -240%;
+  margin-left: 35%;
+  text-align: center;
+  color:white;
 
 }
 
-.boxes{
-  position: relative;
-  top:50%;
-  left:50;
-  transform: translate(-2%,-380%);
+.b5-subheadings{
+  position: absolute;
+  z-index: 2;
+  bottom: -245%;
+  margin-left: 35%;
+  text-align: center;
+  color:white;
+
 }
-.green-box{
-  position:absolute;
-  color:black;
-  margin-top:0;
+
+ .green-box{
+position: absolute;
+z-index: 2;
+  color:white;
+  margin-left:20%;
+ bottom:-280%;
   background-color: transparent;
   padding: 0;
-  font-size:60%;
+  font-size:80%;
 }
  .blue-box{
-  position:absolute;
-  margin-top:0;
-  color:black;
+  position: absolute;
+  z-index: 2;
+  color:white;
+  margin-left:50%;
+  bottom:-280%;
   background-color: transparent;
-  font-size:60%;
+  font-size:80%;
   padding: 0;
-} 
+}  
 
 .b6-headings{
   position: absolute;
@@ -135,9 +146,7 @@ position: absolute;
   width:40%;
   border: thin;
 }
-.slide{
-  margin:0;
-}
+
 .list{
   list-style: none;
 }
@@ -146,6 +155,7 @@ position: absolute;
   background-color:#484848;
   color: white;
   font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 3%;
 }
 footer{
@@ -174,4 +184,91 @@ footer{
 }
 .l-arrow{
   position: absolute;
+  margin-top: 3%;
+  margin-left: 7%;
+}
+.r-arrow{
+  position: absolute;
+  z-index:2;
+  margin-left: 90%;
+  margin-top: 5%;
+ 
+  
+}
+
+
+
+      .faceA1{
+position: absolute;
+z-index: 2;
+margin-top: 13.5%;
+margin-left:16%;
+
+}
+.faceA2{
+  position: absolute;
+  z-index:2;
+  margin-top:13.5%;
+  margin-left:41%;
+  
+  }
+  
+.faceA3{
+    position: absolute;
+    position: absolute;
+    z-index:2;
+    margin-top:13.5%;
+    margin-left:66%;
+    
+    }
+    
+.faceB1{
+  position: absolute;
+      z-index: 2;
+      margin-top: 17%;
+      margin-left:16%;
+      
+      }
+.faceB2{
+        position: absolute;
+        z-index:2;
+        margin-top:17%;
+        margin-left:41%;
+        
+        }
+        
+.faceB3{
+          position: absolute;
+          position: absolute;
+          z-index:2;
+          margin-top:17%;
+          margin-left:66%;
+          
+     }    
+.star-cards{
+  position: absolute;
+  text-align: center;
+  font-style: bold;
+  color: white;
+  bottom: 30%;
+  right: 1px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  
+  padding-left: 30px;
+  padding-right: 30px;
+
+}    
+.search{
+  top:25%;
+  left: 25%;
+  position:absolute;
+  border-right: transparent;
+  border-left: transparent;
+  border-top: transparent;
+  
+}
+.btn01{
+  
 }

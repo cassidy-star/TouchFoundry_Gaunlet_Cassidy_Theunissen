@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
+
 // Above are my neede componets for this file 
 // This component is the footer part of the website
 
@@ -16,8 +17,9 @@ function Six(){
          <Row>
     <Col>   
     {/* My headings for the footer  */}
-    <h5 className="btm-headings">Hourspace</h5>
     <ul className="list">
+    <li><h5 className="btm-headings">Hourspace</h5></li>
+   
             <li>About</li>
             <li>Contact Us</li>
             <li>Terms of service</li>
@@ -30,7 +32,7 @@ function Six(){
 
     <Col>
     <ul className="list">
-    <h5 className="btm-headings">Discover spaces</h5>
+    <li><h5 className="btm-headings">Discover spaces</h5></li>
 {/* My list of information  */}
             <li>How it works </li>
             <li>List your space </li>
@@ -41,12 +43,9 @@ function Six(){
 
 
     <Col>
-    <h5 className="btm-headings">Connect</h5>
-
     <ul className="list">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
+    <li><h5 className="btm-headings">Connect</h5></li>
+           
         </ul>  </Col>
   </Row>
 </Container>
